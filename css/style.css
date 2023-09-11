@@ -25,7 +25,27 @@ body
 {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 3px;
+    padding: 0 3px;
+}
+
+ul
+{
+    list-style: none;
+}
+
+a
+{
+    color: var(--color-primary);
+    display: block;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+button
+{
+    padding: 10px;
+    border-radius: 18px;
+    border: none;
 }
 
 /* utilities */
@@ -34,10 +54,61 @@ body
     border: 1px solid orange;
 }
 
+.dflex
+{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
+
+.centerflex
+{
+    justify-content: center;
+}
+
 /* header */
 header
 {
     background-color: var(--color-bg_header);
+}
+
+#jumbo
+{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    padding: 125px;
+}
+
+.jumbo-content
+{
+    max-width: 900px;
+    text-align: center;
+}
+
+h1
+{
+    padding: 25px 0;
+    color: var(--color-primary);
+}
+
+.intro
+{
+    font-size: 1em;
+    padding: 0 120px 15px;
+    color: var(--color-primary);
+}
+
+.b-white
+{
+    background-color: var(--color-primary);
+}
+
+.b-black
+{
+    background-color: var(--color-bg_footer);
+    color: var(--color-primary);
 }
 
 /* main */
