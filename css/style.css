@@ -40,6 +40,7 @@ a
     padding: 5px 10px;
     text-decoration: none;
     font-size: 0.8em;
+    font-weight: 500;
 }
 
 .a-b
@@ -47,12 +48,16 @@ a
     color: var(--color-bg_footer);
 }
 
+ul a:hover
+{
+    text-decoration: underline;
+}
+
 button
 {
     padding: 14px;
     border-radius: 24px;
     border: none;
-    font-size: 1em;
 }
 
 /* utilities */
@@ -131,8 +136,9 @@ h1
 .intro
 {
     font-size: 1em;
-    padding: 0 120px 15px;
+    padding: 0 120px 20px;
     color: var(--color-primary);
+    line-height: 1.8em;
 }
 
 .b-white
@@ -188,6 +194,21 @@ h4
 {
     font-size: 1.5em;
     padding-bottom: 30px;
+}
+
+/* waves */
+main > div > img
+{
+    display: block;
+    width: 100%;
+}
+main > div 
+{
+    opacity: 0.038;
+}
+.wave-bottom
+{
+    transform: rotate(180deg);
 }
 
 /* footer */
