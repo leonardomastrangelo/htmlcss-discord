@@ -25,7 +25,7 @@ body
 {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 20px 0px;
+    padding: 20px 5px;
 }
 
 ul
@@ -40,6 +40,11 @@ a
     padding: 5px 10px;
     text-decoration: none;
     font-size: 0.8em;
+}
+
+.a-b
+{
+    color: var(--color-bg_footer);
 }
 
 button
@@ -96,8 +101,8 @@ header
 /* nav */
 .login
 {
-    font-size: 0.7em;
-    padding: 8px;
+    font-size: 0.8em;
+    padding: 2px 3px;
     background-color: var(--color-primary);
     border-radius: 16px;
 }
@@ -144,6 +149,7 @@ h1
 .b-violet
 {
     background-color: var(--color-main);
+    color: white;
 }
 
 /* main */
@@ -170,7 +176,7 @@ h2
 
 .container .title-des p
 {
-    padding: 0 56px 0 0;
+    padding: 0 25px 0 0;
 }
 
 .t-align
@@ -180,8 +186,8 @@ h2
 
 h4
 {
-    background-image: url(../img/stars.svg);
-    background-size: cover;
+    font-size: 1.5em;
+    padding-bottom: 30px;
 }
 
 /* footer */
