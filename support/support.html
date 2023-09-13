@@ -11,48 +11,39 @@
     <!-- icon -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- css -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
    
 </head>
 
-<body>
+<body id="support">
     <header>
         <!-- nav-bar -->
         <nav class="container dflex">
             <!-- logo -->
-            <a href="index.html"><img src="img/logo.svg" alt="Logo"></a>
+            <a href="../index.html"><img src="../img-support/logo2.png" alt="Logo"></a>
             <!-- info -->
             <ul class="dflex">
-                <li><a href="">Scarica</a></li>
-                <li><a href="">Perchè Discord</a></li>
-                <li><a href="">Nitro</a></li>
-                <li><a href="support/support.html">Sicurezza</a></li>
-                <li><a href="">Assistenza</a></li>
+                <li><a href="">Suggerimenti</a></li>
+                <li>                   
+                    <select name="languages">
+                        <option value="italian">Italiano</option>
+                    </select>
+                </li>
+                <li><a href="">Invia una richiesta</a></li>
+                <li><a href="">Accedi</a></li>
             </ul>
-            <!-- log-in -->
-            <div class="login"><a class="a-b" href="">Accedi</a></div>
         </nav>
-
         <!-- hero-section -->
         <div id="jumbo">
-            <div class="container dflex centerflex">
-                <div class="jumbo-content">
+            <div class="container columnflex centerflex">
                     <!-- title -->
-                    <h1>Il tuo posto per parlare</h1>
-                    <!-- description -->
-                    <div class="intro">
-                        Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente
-                        di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
-                    </div>
-                    <!-- buttons -->
-                    <button class="b-white">
-                        <i class="fa-solid fa-arrow-down-long" style="color: #000000;"></i>
-                        Scarica per Mac
-                    </button>
-                    <button class="b-black">Apri Discord nel tuo browser</button>
-                </div>
+                    <h1>Centro Aiuto</h1>
+                    <!-- description -->                
+                    <input type="text" placeholder="Cerca Aiuto qui...">
+                    
             </div>
         </div>
+    </div>
     </header>
     
     <main>
@@ -73,8 +64,6 @@
                     </p>
                 </div>
             </div>
-
-            <!-- sezione 2 -->
         </section>
 
         <!-- sezione 2 -->
@@ -200,7 +189,7 @@
         </div>
         <!-- bottom footer -->
         <aside class="container dflex">
-            <img src="img/logo.svg" alt="Logo">
+            <img src="../img/logo.svg" alt="Logo">
             <div class="login b-violet"><a href="">Registrati</a></div>
         </aside>
     </footer>

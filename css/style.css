@@ -265,3 +265,31 @@ aside
     border-top: 1px solid var(--color-main);
 }
 
+
+/* SUPPORT PAGE */
+#support header
+{
+    background-color: var(--color-primary);
+    color: #5765F2;
+}
+#support header a 
+{
+    color: #5765F2;
+    font-size: 0.9em;
+}
+
+#support header select
+{
+    background-color: var(--color-primary);
+    color: var(--color-bg_header);
+    font-size: 0.95em;
+}
+
+#support #jumbo input
+{
+    width: 60%;
+    padding: 13px;
+    text-decoration: none;
+    border: none;
+    border-radius: 6px;
+}
