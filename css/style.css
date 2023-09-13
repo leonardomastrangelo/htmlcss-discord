@@ -272,10 +272,12 @@ aside
     background-color: var(--color-primary);
     color: #5765F2;
 }
-#support header a 
+#support section a, #support header a
 {
     color: #5765F2;
     font-size: 0.9em;
+    padding: 0 20px;
+    display: inline-block;
 }
 
 #support header select
@@ -292,4 +294,78 @@ aside
     text-decoration: none;
     border: none;
     border-radius: 6px;
+}
+
+#support #jumbo
+{
+    background-image: url(../img-support/wallpaper.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#support main .container p
+{
+    font-size: 1.1em;
+    padding: 0 70px;
+    line-height: 1.6em;
+}
+
+#support .wrapper
+{
+    padding: 25px 60px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+#support .box
+{
+    width: calc(100% / 7 - 30px);
+    font-size: 0.8em;
+    border: 1px solid grey;
+    border-radius: 6px;
+    background-color: #F8F9F9;
+    padding: 15px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+#support i
+{
+    color: gray;
+}
+
+#support h3
+{
+    font-weight: 400;
+}
+#support h4
+{
+    padding: 30px 0 0;
+}
+
+#support .columnflex button
+{
+    font-size: 1.1em;
+    padding-left: 80px;
+    padding-right: 80px;
+    background-color: #3AA55C;
+    color: white;
+    margin-bottom: 35px;
+}
+
+#support button:hover
+{
+    box-shadow: 5px 8px 10px lightgreen;
+}
+
+#support footer
+{
+    background-color: #121415 ;
+}
+
+#support aside
+{
+    border-top: 1px solid grey;
 }
